@@ -10,11 +10,13 @@ $(document).foundation();
 var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
+var Example = require('Example');
 var Contact = require('Contact');
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path='/' component={Main}>
       <Route path='about' component={About}/>
+      <Route path='example' component={Example}/>
       <Route path='contact' component={Contact}/>
       <IndexRoute component={Weather} />
     </Route>

@@ -22,11 +22,15 @@ var Nav = React.createClass({
 
                 </li>
                 <li>
-                  <Link to='/about'  activeClassName="active" activeStyle={{fontWeight:'bold'}}>about</Link>
+                  <Link to='/about'  activeClassName="active" activeStyle={{fontWeight:'bold'}}>About</Link>
 
                 </li>
                 <li>
-                  <Link to='/contact' activeClassName="active" activeStyle={{fontWeight:'bold'}}>contact</Link>
+                  <Link to='/example' activeClassName="active" activeStyle={{fontWeight:'bold'}}>Example</Link>
+
+                </li>
+                <li>
+                  <Link to='/contact' activeClassName="active" activeStyle={{fontWeight:'bold'}}>Contact</Link>
 
                 </li>
               </ul>
