@@ -4,7 +4,7 @@ var About = React.createClass({
   render: function(){
     return (
       <div>
-        <h1 className="text-center">About</h1>
+        <h1 className="text-center home-title">About</h1>
         <p>This is a weather application build on React. I have built this
           for the complete React Web app Developer Course</p>
           <ul>

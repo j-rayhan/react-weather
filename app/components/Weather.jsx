@@ -45,7 +45,7 @@ var Weather = React.createClass({
     }
     return (
       <div>
-        Welcome to Weather components
+        <h3 className="home-title">Welcome to Weather App</h3>
         <WeatherForm onSearch={this.hendelLocation}/>
         {renderMessage()}
         {errorModel()}
