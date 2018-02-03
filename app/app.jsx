@@ -19,6 +19,8 @@ ReactDOM.render(
       <Route path='about' component={About}/>
       <Route path='example' component={Example}/>
       <Route path='contact' component={Contact}/>
+      <Route path='success' component={Contact}/>
+      <Route path='error' component={Contact}/>
       <IndexRoute component={Weather} />
     </Route>
   </Router>,
