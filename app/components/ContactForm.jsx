@@ -10,7 +10,7 @@ var ContactForm = React.createClass({
     var encodedLocation = encodeURIComponent(str);
     var res = encodedLocation.match(/success?/g);
     var res2 = encodedLocation.match(/error?/g);
-    console.log("..........",encodedLocation.match(/success?/g));
+  //  console.log("..........",encodedLocation.match(/success?/g));
     if (res && res.length > 0) {
       if (res[0] === "success") {
         //console.log("Success");

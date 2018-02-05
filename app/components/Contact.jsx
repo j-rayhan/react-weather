@@ -4,7 +4,7 @@ var Contact = React.createClass({
   render: function(){
     return (
       <div>
-        <h1 className="text-center home-title">Contact With Me</h1>
+        <h2 className="text-center home-title">Contact With Me</h2>
         <ContactForm />
       </div>
     );

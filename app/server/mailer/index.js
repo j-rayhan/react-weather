@@ -14,11 +14,19 @@ const send = ({ email, name, text }) => {
   const from = name && email ? `${name} <${email}>` : `${name || email}`
   const message = {
     from,
-    to: 'johir.rayhan01@gmail.com',
+    to: `johir.rayhan01@gmail.com, ${email}`,
     subject: `New message from ${from} at creating-contact-forms-with-nodemailer-and-react`,
     text,
     replyTo: from
   };
+
+  // const replayMessage = {
+  //   'johir.rayhan01@gmail.com',
+  //   to: from,
+  //   subject: `New message from ${from} at creating-contact-forms-with-nodemailer-and-react`,
+  //   text,
+  //   replyTo: from
+  // };
 
   return new Promise((resolve, reject) => {
     transporter.sendMail(message, (error, info) =>

@@ -9,7 +9,7 @@ var About = React.createClass({
           for the complete React Web app Developer Course</p>
           <ul>
             <li>
-              <a href="https://facbook.github.io/react"> React </a> - This was the JavaScript framework used.
+              <a href="https://reactjs.org/"> React </a> - This was the JavaScript framework used.
             </li>
             <li>
               <a href="http://openweathermap.org">Open weather Map</a> - I used Open weather map to search for weather data by city name.
